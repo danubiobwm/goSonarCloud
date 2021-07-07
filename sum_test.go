@@ -12,7 +12,7 @@ func TestSum(t *testing.T) {
 func TestSub(t *testing.T) {
 	result := sub(2, 3)
 
-	if result != 3 {
+	if result == 1 {
 		t.Error("The result must be 1")
 	}
 }
